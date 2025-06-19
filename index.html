@@ -1,0 +1,251 @@
+
+<!DOCTYPE html>
+
+<html lang="es">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Planner Cute Interactivo</title>
+<link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@400;700&amp;display=swap" rel="stylesheet"/>
+<style>
+    body {
+      background: linear-gradient(to right, #fffbe7, #e6f7ff);
+      font-family: 'Comic Neue', cursive;
+      overflow-x: hidden;
+    }
+    .book {
+      width: 100%;
+      max-width: 700px;
+      height: 90vh;
+      margin: auto;
+    }
+    #planner {
+      width: 700px;
+      height: 500px;
+      margin: auto;
+      width: 100%;
+      height: 100%;
+    }
+    .page {
+      background-color: #fffef0;
+      padding: 2rem;
+      border-radius: 1rem;
+      box-shadow: 0 0 15px rgba(255, 200, 221, 0.5);
+    }
+    table.calendar {
+      width: 100%;
+      text-align: center;
+      margin-top: 1rem;
+    }
+    table.calendar th, table.calendar td {
+      padding: 0.5rem;
+      border: 1px solid #f3d1e6;
+    }
+    @media (max-width: 768px) {
+      .page {
+        padding: 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+<div class="book mt-10">
+<div id="planner"><div class="page">
+<h2 class="text-2xl font-bold text-pink-400">Página 1</h2>
+<p class="mt-6 text-xl text-purple-500 italic">"Hoy es un buen día para empezar ✨"</p>
+</div><div class="page">
+<h2 class="text-2xl font-bold text-pink-400">Página 2</h2>
+<p class="mt-6 text-xl text-purple-500 italic">"Cree en ti y en tu magia 💫"</p>
+</div><div class="page">
+<h2 class="text-2xl font-bold text-pink-400">Página 3</h2>
+<p class="mt-6 text-xl text-purple-500 italic">"Paso a paso se logran grandes cosas 🚶‍♀️"</p>
+</div><div class="page">
+<h2 class="text-2xl font-bold text-pink-400">Página 4</h2>
+<p class="mt-6 text-xl text-purple-500 italic">"Tú puedes con esto y más 💖"</p>
+</div><div class="page">
+<h2 class="text-2xl font-bold text-pink-400">Página 5</h2>
+<p class="mt-6 text-xl text-purple-500 italic">"El esfuerzo de hoy es el éxito de mañana 🌱"</p>
+</div><div class="page">
+<h2 class="text-2xl font-bold text-pink-400">Página 6</h2>
+<p class="mt-6 text-xl text-purple-500 italic">"Rodéate de cosas que te hagan feliz 🌸"</p>
+</div><div class="page">
+<h2 class="text-2xl font-bold text-pink-400">Página 7</h2>
+<p class="mt-6 text-xl text-purple-500 italic">"Cada día es una nueva oportunidad 🌞"</p>
+</div><div class="page">
+<h2 class="text-2xl font-bold text-pink-400">Página 8</h2>
+<p class="mt-6 text-xl text-purple-500 italic">"Eres más fuerte de lo que crees 💪"</p>
+</div><div class="page">
+<h2 class="text-2xl font-bold text-pink-400">Página 9</h2>
+<p class="mt-6 text-xl text-purple-500 italic">"Nunca dejes de soñar 🌈"</p>
+</div><div class="page">
+<h2 class="text-2xl font-bold text-pink-400">Página 10</h2>
+<p class="mt-6 text-xl text-purple-500 italic">"Tu energía positiva es contagiosa 😊"</p>
+</div><div class="page">
+<h2 class="text-2xl font-bold text-pink-400">Página 11</h2>
+<p class="mt-6 text-xl text-purple-500 italic">"Hazlo con amor o no lo hagas ❤️"</p>
+</div><div class="page">
+<h2 class="text-2xl font-bold text-pink-400">Página 12</h2>
+<p class="mt-6 text-xl text-purple-500 italic">"Hoy elijo avanzar sin miedo 🦋"</p>
+</div><div class="page">
+<h2 class="text-2xl font-bold text-pink-400">Página 13</h2>
+<p class="mt-6 text-xl text-purple-500 italic">"Confía en el proceso 🌿"</p>
+</div><div class="page">
+<h2 class="text-2xl font-bold text-pink-400">Página 14</h2>
+<p class="mt-6 text-xl text-purple-500 italic">"Mente positiva, vida positiva 🧠✨"</p>
+</div><div class="page">
+<h2 class="text-2xl font-bold text-pink-400">Página 15</h2>
+<p class="mt-6 text-xl text-purple-500 italic">"Lo mejor está por venir 🌟"</p>
+</div><div class="page">
+<h2 class="text-2xl font-bold text-pink-400">Página 16</h2>
+<p class="mt-6 text-xl text-purple-500 italic">"Pequeños logros, grandes avances 🧩"</p>
+</div><div class="page">
+<h2 class="text-2xl font-bold text-pink-400">Página 17</h2>
+<p class="mt-6 text-xl text-purple-500 italic">"Sé amable contigo misma 💕"</p>
+</div><div class="page">
+<h2 class="text-2xl font-bold text-pink-400">Página 18</h2>
+<p class="mt-6 text-xl text-purple-500 italic">"La disciplina te llevará lejos 🚀"</p>
+</div><div class="page">
+<h2 class="text-2xl font-bold text-pink-400">Página 19</h2>
+<p class="mt-6 text-xl text-purple-500 italic">"Agradece lo que tienes 🙏"</p>
+</div><div class="page">
+<h2 class="text-2xl font-bold text-pink-400">Página 20</h2>
+<p class="mt-6 text-xl text-purple-500 italic">"Tu luz interior es imparable 🌟"</p>
+</div><div class="page">
+<h2 class="text-2xl font-bold text-pink-400">Página 21</h2>
+<p class="mt-6 text-xl text-purple-500 italic">"Sigue adelante, lo estás haciendo bien 🐾"</p>
+</div><div class="page">
+<h2 class="text-2xl font-bold text-pink-400">Página 22</h2>
+<p class="mt-6 text-xl text-purple-500 italic">"Hoy me enfoco en lo que sí puedo 🌼"</p>
+</div><div class="page">
+<h2 class="text-2xl font-bold text-pink-400">Página 23</h2>
+<p class="mt-6 text-xl text-purple-500 italic">"Nada cambia si tú no cambias 🔄"</p>
+</div><div class="page">
+<h2 class="text-2xl font-bold text-pink-400">Página 24</h2>
+<p class="mt-6 text-xl text-purple-500 italic">"Cuida tu paz como un tesoro 🧘‍♀️"</p>
+</div><div class="page">
+<h2 class="text-2xl font-bold text-pink-400">Página 25</h2>
+<p class="mt-6 text-xl text-purple-500 italic">"Celebra tus progresos, por pequeños que sean 🎉"</p>
+</div><div class="page">
+<h2 class="text-2xl font-bold text-pink-400">Página 26</h2>
+<p class="mt-6 text-xl text-purple-500 italic">"Hoy voy a brillar ✨"</p>
+</div><div class="page">
+<h2 class="text-2xl font-bold text-pink-400">Página 27</h2>
+<p class="mt-6 text-xl text-purple-500 italic">"Me permito descansar sin culpa 🌙"</p>
+</div><div class="page">
+<h2 class="text-2xl font-bold text-pink-400">Página 28</h2>
+<p class="mt-6 text-xl text-purple-500 italic">"La constancia vence al talento ⏳"</p>
+</div><div class="page">
+<h2 class="text-2xl font-bold text-pink-400">Página 29</h2>
+<p class="mt-6 text-xl text-purple-500 italic">"Sé tu mejor versión 💎"</p>
+</div><div class="page">
+<h2 class="text-2xl font-bold text-pink-400">Página 30</h2>
+<p class="mt-6 text-xl text-purple-500 italic">"La magia está en los detalles 🧁"</p>
+</div><div class="page">
+<h2 class="text-2xl font-bold text-pink-400">Página 31</h2>
+<p class="mt-6 text-xl text-purple-500 italic">"Tu sonrisa es tu superpoder 😄"</p>
+</div><div class="page">
+<h2 class="text-2xl font-bold text-pink-400">Página 32</h2>
+<p class="mt-6 text-xl text-purple-500 italic">"No hay límites para lo que puedes lograr 🌍"</p>
+</div><div class="page">
+<h2 class="text-2xl text-green-600 font-semibold">Planificador Semanal</h2>
+<table class="calendar mt-4">
+<thead>
+<tr><th>Día</th><th>Actividad</th><th>Prioridad</th><th>Check</th></tr>
+</thead>
+<tbody>
+<tr><td>Lunes</td><td><input class="w-full" type="text"/></td><td><select><option>Alta</option><option>Media</option><option>Baja</option></select></td><td><input type="checkbox"/></td></tr>
+<tr><td>Martes</td><td><input class="w-full" type="text"/></td><td><select><option>Alta</option><option>Media</option><option>Baja</option></select></td><td><input type="checkbox"/></td></tr>
+<tr><td>Miércoles</td><td><input class="w-full" type="text"/></td><td><select><option>Alta</option><option>Media</option><option>Baja</option></select></td><td><input type="checkbox"/></td></tr>
+<tr><td>Jueves</td><td><input class="w-full" type="text"/></td><td><select><option>Alta</option><option>Media</option><option>Baja</option></select></td><td><input type="checkbox"/></td></tr>
+<tr><td>Viernes</td><td><input class="w-full" type="text"/></td><td><select><option>Alta</option><option>Media</option><option>Baja</option></select></td><td><input type="checkbox"/></td></tr>
+<tr><td>Sábado</td><td><input class="w-full" type="text"/></td><td><select><option>Alta</option><option>Media</option><option>Baja</option></select></td><td><input type="checkbox"/></td></tr>
+<tr><td>Domingo</td><td><input class="w-full" type="text"/></td><td><select><option>Alta</option><option>Media</option><option>Baja</option></select></td><td><input type="checkbox"/></td></tr>
+</tbody>
+</table>
+</div><div class="page">
+<h2 class="text-2xl text-green-600 font-semibold">To-Do List</h2>
+<ul class="list-disc mt-4 space-y-2 text-purple-600">
+<li><input type="checkbox"/> Tarea 1</li>
+<li><input type="checkbox"/> Tarea 2</li>
+<li><input type="checkbox"/> Tarea 3</li>
+<li><input type="checkbox"/> Tarea 4</li>
+<li><input type="checkbox"/> Tarea 5</li>
+</ul>
+</div><div class="page">
+<h2 class="text-2xl text-green-600 font-semibold">Mood Tracker</h2>
+<table class="calendar mt-4">
+<thead>
+<tr><th>Día</th><th>Estado de ánimo</th></tr>
+</thead>
+<tbody>
+<tr><td>1</td><td><select><option>😊 Feliz</option><option>😐 Neutral</option><option>😢 Triste</option><option>😠 Enojada</option></select></td></tr>
+<tr><td>2</td><td><select><option>😊 Feliz</option><option>😐 Neutral</option><option>😢 Triste</option><option>😠 Enojada</option></select></td></tr>
+<tr><td>3</td><td><select><option>😊 Feliz</option><option>😐 Neutral</option><option>😢 Triste</option><option>😠 Enojada</option></select></td></tr>
+</tbody>
+</table>
+</div><div class="page">
+<h2 class="text-2xl text-green-600 font-semibold">Diario Personal</h2>
+<textarea class="w-full h-72 mt-4 p-4 rounded-xl border border-purple-300" placeholder="Escribe tu día, pensamientos o emociones..."></textarea>
+</div><div class="page">
+<h2 class="text-2xl text-green-600 font-semibold">Afirmaciones Positivas</h2>
+<ul class="list-disc mt-4 ml-6 text-blue-500 italic">
+<li>💗 Soy suficiente tal como soy</li>
+<li>🌼 Estoy creciendo y mejorando cada día</li>
+<li>🌈 Mi mente está enfocada y tranquila</li>
+<li>✨ Todo lo bueno llega a mí</li>
+<li>🦋 Me permito florecer con amor</li>
+</ul>
+</div><div class="page">
+<h2 class="text-2xl text-green-600 font-semibold">Control de Finanzas</h2>
+<table class="calendar mt-4">
+<thead>
+<tr><th>Fecha</th><th>Ingreso</th><th>Gasto</th><th>Notas</th></tr>
+</thead>
+<tbody>
+<tr><td><input type="date"/></td><td><input type="number"/></td><td><input type="number"/></td><td><input type="text"/></td></tr>
+<tr><td><input type="date"/></td><td><input type="number"/></td><td><input type="number"/></td><td><input type="text"/></td></tr>
+</tbody>
+</table>
+</div></div>
+</div>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+    const loadTurnJs = () => {
+      const script = document.createElement('script');
+      script.src = "https://cdnjs.cloudflare.com/ajax/libs/turn.js/4.1.0/turn.min.js";
+      script.onload = () => {
+        if (typeof $.fn.turn === 'function') {
+          $('#planner').turn({
+            width: 700,
+            height: 500,
+            autoCenter: true,
+            display: 'double',
+            elevation: 50,
+            gradients: true
+          });
+        } else {
+          console.error("Turn.js no está disponible después de la carga dinámica.");
+        }
+      };
+      script.onerror = () => console.error("Error al cargar Turn.js desde el CDN");
+      document.head.appendChild(script);
+    };
+
+    if (typeof $.fn.turn === 'undefined') {
+      loadTurnJs();
+    } else {
+      $('#planner').turn({
+        width: 700,
+        height: 500,
+        autoCenter: true,
+        display: 'double',
+        elevation: 50,
+        gradients: true
+      });
+    }
+  </script>
+</body>
+</html>
